@@ -1,0 +1,142 @@
+[
+  {
+    "label": "CSS Class Scope (no settings)",
+    "evidence": "20260909-234115.kyVzdg",
+    "shots": {
+      "p1-empty-class": {
+        "offered": 26,
+        "from_unrelated_packages": 0,
+        "examples": []
+      },
+      "p2-unrelated-prefix": {
+        "offered": 26,
+        "from_unrelated_packages": 0,
+        "examples": []
+      },
+      "p3-shared-prefix": {
+        "offered": 26,
+        "from_unrelated_packages": 0,
+        "examples": []
+      }
+    }
+  },
+  {
+    "label": "CSS Navigation (defaults)",
+    "evidence": "20260909-234506.Vl4Sst",
+    "shots": {
+      "p1-empty-class": {
+        "offered": 75,
+        "from_unrelated_packages": 49,
+        "examples": [
+          "admin-shell",
+          "admin-table",
+          "admin-table__cell",
+          "admin-table__row",
+          "admin-table__row--selected",
+          "admin-topbar"
+        ]
+      },
+      "p2-unrelated-prefix": {
+        "offered": 6,
+        "from_unrelated_packages": 6,
+        "examples": [
+          "admin-shell",
+          "admin-table",
+          "admin-table__cell",
+          "admin-table__row",
+          "admin-table__row--selected",
+          "admin-topbar"
+        ]
+      },
+      "p3-shared-prefix": {
+        "offered": 5,
+        "from_unrelated_packages": 0,
+        "examples": []
+      }
+    }
+  },
+  {
+    "label": "ecmel + workspace glob",
+    "evidence": "20260909-234859.EsffjY",
+    "shots": {
+      "p1-empty-class": {
+        "offered": 61,
+        "from_unrelated_packages": 49,
+        "examples": [
+          "admin-shell",
+          "admin-table",
+          "admin-table__cell",
+          "admin-table__row",
+          "admin-table__row--selected",
+          "admin-topbar"
+        ]
+      },
+      "p2-unrelated-prefix": {
+        "offered": 61,
+        "from_unrelated_packages": 49,
+        "examples": [
+          "admin-shell",
+          "admin-table",
+          "admin-table__cell",
+          "admin-table__row",
+          "admin-table__row--selected",
+          "admin-topbar"
+        ]
+      },
+      "p3-shared-prefix": {
+        "offered": 61,
+        "from_unrelated_packages": 49,
+        "examples": [
+          "admin-shell",
+          "admin-table",
+          "admin-table__cell",
+          "admin-table__row",
+          "admin-table__row--selected",
+          "admin-topbar"
+        ]
+      }
+    }
+  },
+  {
+    "label": "Zignd (defaults)",
+    "evidence": "20260909-235250.Hkq1L5",
+    "shots": {
+      "p1-empty-class": {
+        "offered": 51,
+        "from_unrelated_packages": 49,
+        "examples": [
+          "admin-shell",
+          "admin-table",
+          "admin-table__cell",
+          "admin-table__row",
+          "admin-table__row--selected",
+          "admin-topbar"
+        ]
+      },
+      "p2-unrelated-prefix": {
+        "offered": 51,
+        "from_unrelated_packages": 49,
+        "examples": [
+          "admin-shell",
+          "admin-table",
+          "admin-table__cell",
+          "admin-table__row",
+          "admin-table__row--selected",
+          "admin-topbar"
+        ]
+      },
+      "p3-shared-prefix": {
+        "offered": 51,
+        "from_unrelated_packages": 49,
+        "examples": [
+          "admin-shell",
+          "admin-table",
+          "admin-table__cell",
+          "admin-table__row",
+          "admin-table__row--selected",
+          "admin-topbar"
+        ]
+      }
+    }
+  }
+]
