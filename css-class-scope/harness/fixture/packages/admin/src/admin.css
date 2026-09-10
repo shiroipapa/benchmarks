@@ -1,0 +1,23 @@
+/* Internal admin console. Never used by the public site. */
+.admin-shell { display: grid; grid-template-columns: 240px 1fr; }
+.admin-topbar { height: 48px; }
+.sidebar-nav { padding: 1rem; }
+.sidebar-nav__item { padding: 0.5rem; }
+.sidebar-nav__item--active { background: #eef2ff; }
+.admin-table { width: 100%; border-collapse: collapse; }
+.admin-table__row { border-bottom: 1px solid #e5e7eb; }
+.admin-table__row--selected { background: #f1f5f9; }
+.admin-table__cell { padding: 0.5rem; }
+.badge-danger { background: #fee2e2; color: #991b1b; }
+.badge-warning { background: #fef3c7; color: #92400e; }
+.btn-danger { background: #dc2626; color: #fff; }
+.btn-secondary { background: #e5e7eb; }
+.hero { /* the admin dashboard hero — unrelated to the marketing hero */ padding: 1rem; }
+.title { font-size: 1.25rem; }
+.filter-bar { display: flex; gap: 0.5rem; }
+.filter-bar__chip { border-radius: 999px; }
+.user-avatar { border-radius: 50%; }
+.user-avatar--small { width: 24px; }
+.pagination { display: flex; }
+.pagination__page { padding: 0.25rem 0.5rem; }
+.pagination__page--current { font-weight: 700; }

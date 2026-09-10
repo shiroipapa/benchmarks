@@ -1,0 +1,11 @@
+{
+  "css.enabledLanguages": [
+    "html", "php", "javascript", "javascriptreact", "typescriptreact",
+    "vue", "vue-html", "twig", "blade", "razor", "django-html",
+    "handlebars", "erb", "ejs", "svelte"
+  ],
+  "css.styleSheets": ["**/*.css", "**/*.scss", "**/*.less"],
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "editor.minimap.enabled": false
+}

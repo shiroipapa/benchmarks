@@ -1,0 +1,33 @@
+{
+  "waitForExtension": "shiroipapa.css-class-scope",
+  "workspace": "demo-monorepo-ab",
+  "shots": [
+    {
+      "name": "ab1-editing-web",
+      "file": "packages/web/src/index.html",
+      "needle": "<article class=\"\">",
+      "offset": -2,
+      "action": "suggest",
+      "settleMs": 1800,
+      "waitMs": 40000
+    },
+    {
+      "name": "ab2-editing-admin",
+      "file": "packages/admin/src/console.html",
+      "needle": "<td class=\"\">",
+      "offset": -2,
+      "action": "suggest",
+      "settleMs": 1800,
+      "waitMs": 40000
+    },
+    {
+      "name": "ab3-back-to-web",
+      "file": "packages/web/src/index.html",
+      "needle": "<article class=\"\">",
+      "offset": -2,
+      "action": "suggest",
+      "settleMs": 1800,
+      "waitMs": 40000
+    }
+  ]
+}

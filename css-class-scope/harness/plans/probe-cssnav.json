@@ -1,0 +1,34 @@
+{
+  "waitForExtension": "pucelle.vscode-css-navigation",
+  "shots": [
+    {
+      "name": "p1-empty-class",
+      "file": "packages/web/src/index.html",
+      "needle": "<article class=\"\">",
+      "offset": -2,
+      "action": "suggest",
+      "settleMs": 1800,
+      "waitMs": 40000
+    },
+    {
+      "name": "p2-unrelated-prefix",
+      "file": "packages/web/src/index.html",
+      "needle": "<article class=\"\">",
+      "offset": -2,
+      "insert": "admin-",
+      "action": "suggest",
+      "settleMs": 1800,
+      "waitMs": 8000
+    },
+    {
+      "name": "p3-shared-prefix",
+      "file": "packages/web/src/index.html",
+      "needle": "<article class=\"\">",
+      "offset": -2,
+      "insert": "ds-button",
+      "action": "suggest",
+      "settleMs": 1800,
+      "waitMs": 8000
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+/* 2019 landing pages. Kept for old campaign URLs only. */
+.lp-hero { padding: 4rem; }
+.lp-hero-title { font-size: 2rem; }
+.lp-hero-sub { color: #666; }
+.lp-cta { background: orange; }
+.lp-cta-secondary { background: #eee; }
+.lp-feature { margin: 1rem 0; }
+.lp-feature-icon { width: 32px; }
+.lp-feature-title { font-weight: bold; }
+.lp-testimonial { font-style: italic; }
+.lp-testimonial-author { font-size: 0.875rem; }
+.lp-footer { padding: 2rem; }
+.lp-footer-links { display: flex; }
+.lp-banner { background: yellow; }
+.lp-banner-close { float: right; }
+.lp-pricing { display: flex; }
+.lp-pricing-col { flex: 1; }
+.lp-pricing-price { font-size: 2rem; }
+.lp-faq { margin-top: 2rem; }
+.lp-faq-item { border-bottom: 1px solid #ddd; }
+.lp-faq-question { font-weight: bold; }
+.hero { background: url(/img/2019-hero.jpg); }
+.hero-title { font-size: 2.5rem; }
+.pricing-card { border: 2px dashed #999; }
+.btn { padding: 4px 8px; }
+.btn-primary { background: orange; }
+.btn-large { font-size: 1.25rem; }
+.container { width: 960px; }
+.row { display: flex; }
+.col { flex: 1; }
+.text-center { text-align: center; }

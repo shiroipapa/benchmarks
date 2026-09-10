@@ -1,0 +1,31 @@
+// Shared design system: every package may use these.
+.ds-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+
+  &__icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  &__label {
+    font-weight: 600;
+  }
+
+  &--primary {
+    background: #2563eb;
+    color: #fff;
+  }
+
+  &--ghost {
+    background: transparent;
+    border: 1px solid currentColor;
+  }
+
+  &:hover {
+    filter: brightness(1.05);
+  }
+}

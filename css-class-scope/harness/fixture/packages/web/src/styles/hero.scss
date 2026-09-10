@@ -1,0 +1,56 @@
+.hero {
+  padding: 6rem 2rem;
+  text-align: center;
+
+  &__title {
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+
+  &__subtitle {
+    margin-top: 1rem;
+    color: #64748b;
+  }
+
+  &__actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &--dark {
+    background: #0f172a;
+    color: #f8fafc;
+  }
+}
+
+.pricing-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+
+  &__price {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  &__features {
+    margin-top: 1rem;
+  }
+
+  &--featured {
+    border-color: #2563eb;
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+  }
+}
+
+.hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.pricing-card__badge {
+  position: absolute;
+  top: -0.75rem;
+}

@@ -1,0 +1,6 @@
+{
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false
+}
