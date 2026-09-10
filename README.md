@@ -25,12 +25,12 @@ rather than claimed. More at **[github.com/shiroipapa](https://github.com/shiroi
 ### CSS Class Scope — for VS Code
 
 Autocomplete for CSS class names that stays inside the package you are
-editing. In a monorepo, most editors offer every class in the workspace, so
-typing `btn-` in `packages/web` suggests classes from `packages/admin` too.
-CSS Class Scope narrows completion, *go to definition* and *find references*
-to the package you are in plus the shared design system you declared, resolves
-nested SCSS/LESS selectors, and reports classes defined in scope that nothing
-in scope uses.
+editing. In a monorepo, some popular CSS completion extensions can offer
+classes from unrelated packages, so typing `btn-` in `packages/web` suggests
+classes from `packages/admin` too. CSS Class Scope narrows completion, *go to
+definition* and *find references* to the package you are in plus the shared
+design system you declared, resolves common nested SCSS selectors, and reports
+classes defined in scope that nothing in scope uses.
 
 Free to install. **Pro is $29/year**, and one licence activates on **up to 3
 machines**.
@@ -51,8 +51,8 @@ after that — cancelling is not the same as switching it off today, and you are
 not billed again.
 
 Beyond the 14-day window we do not refund the unused part of a period that has
-already started. If something is broken and that is why you are leaving, say
-so — that is a bug report, and it is handled as one.
+already started. If something is broken, contact us and we'll investigate the
+issue and any appropriate refund.
 
 Payments, invoices and refunds are processed by **Lemon Squeezy**, who are the
 merchant of record for these products.
