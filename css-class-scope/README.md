@@ -1,9 +1,10 @@
 # CSS Class Scope — benchmark evidence
 
 Everything the extension's README claims about competing extensions was measured
-here, and the fixture, settings, positions and raw output are published in
-`harness/` so the numbers can be checked rather than trusted. If a number in
-the Marketplace listing is not on this page, treat it as unsupported and tell us.
+here. For sections 1 and 2, the fixture, settings, positions and raw output are published in
+`harness/` so the numbers can be checked rather than trusted. The extension is not yet published;
+once it is, any number in its listing that is not on this page should be treated as
+unsupported — tell us.
 
 Measured on VS Code 1.136, inside a disposable, network-isolated virtual machine,
 one extension at a time, each in its own empty profile.
@@ -96,7 +97,7 @@ affect the numbers above it, but it is a real gap and it is on the roadmap.
 
 ## Reproducing this
 
-Everything needed is in [`harness/`](harness/), in this repository:
+Everything needed for sections 1 and 2 is in [`harness/`](harness/), in this repository:
 
 - `harness/fixture/` — the demo monorepo measured above
 - `harness/settings/` — one `settings.json` per extension configuration, so you
