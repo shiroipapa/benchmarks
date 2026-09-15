@@ -10,8 +10,8 @@ these pages, treat it as unsupported and tell us.
 
 Measurements run one extension at a time, each in its own empty profile,
 inside a disposable virtual machine with no network access. The fixtures and
-the exact positions measured are described on each page, so the numbers can
-be reproduced rather than taken on trust.
+the exact positions measured are described on each page, so the fixture-based
+numbers can be reproduced rather than taken on trust.
 
 Where a competitor does something better than us, it is on the page too.
 
@@ -20,9 +20,11 @@ Where a competitor does something better than us, it is on the page too.
 ## About Shiroipapa Apps
 
 **Small tools for developers.** One job each, done properly, and measured
-rather than claimed. More at **[github.com/shiroipapa](https://github.com/shiroipapa)**.
+rather than claimed. Website: **[shiroipapa.github.io](https://shiroipapa.github.io/)**
 
-### CSS Class Scope — for VS Code
+Nothing is on sale yet. When a product can be bought, the website will say where.
+
+### CSS Class Scope — for VS Code · *In development / not yet published*
 
 Autocomplete for CSS class names that stays inside the package you are
 editing. In a monorepo, some popular CSS completion extensions can offer
@@ -32,27 +34,9 @@ definition* and *find references* to the package you are in plus the shared
 design system you declared, resolves common nested SCSS selectors, and reports
 classes defined in scope that nothing in scope uses.
 
-Free to install. **Pro is $29/year**, and one licence activates on **up to 3
-machines**.
+Not yet published to the Visual Studio Marketplace. Pricing and licensing will
+be announced when it is.
 
 ### Support
 
-**shiroipapaapps@gmail.com** — questions, licence problems, bug reports,
-refunds. Include the order number or the email used at checkout.
-
-### Refunds and cancellation
-
-**Refunds: 14 days, no questions asked.** Email the address above; you do not
-have to explain why.
-
-**Cancel whenever you like.** The cancellation link is in your receipt. Pro
-keeps working until the end of the period you have already paid for, and stops
-after that — cancelling is not the same as switching it off today, and you are
-not billed again.
-
-Beyond the 14-day window we do not refund the unused part of a period that has
-already started. If something is broken, contact us and we'll investigate the
-issue and any appropriate refund.
-
-Payments, invoices and refunds are processed by **Lemon Squeezy**, who are the
-merchant of record for these products.
+**shiroipapaapps@gmail.com** — questions and bug reports.
